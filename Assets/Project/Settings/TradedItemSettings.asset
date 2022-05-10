@@ -230,5 +230,5 @@ MonoBehaviour:
       <Price>k__BackingField: 4000
       <RewardCount>k__BackingField: 1
   <ForceMultiplier>k__BackingField: 15
-  <ItemMoveYOffset>k__BackingField: 2.75
-  <ItemMoveZOffset>k__BackingField: 0.33
+  <ItemMoveYOffset>k__BackingField: -10
+  <ItemMoveZOffset>k__BackingField: 2

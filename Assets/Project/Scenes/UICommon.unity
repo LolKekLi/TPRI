@@ -430,6 +430,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6639363789704184960, guid: 2790a6c9da68942a78a6a5b47e7799f7, type: 3}
+      propertyPath: m_Name
+      value: 'WalsButtonBack '
+      objectReference: {fileID: 0}
     - target: {fileID: 6685987323773800241, guid: 2790a6c9da68942a78a6a5b47e7799f7, type: 3}
       propertyPath: m_Name
       value: UI

@@ -33,7 +33,7 @@ namespace Project
 
         public static bool BasicTutorialNeeded
         {
-            get { return GetBoolValue(Keys.BasicTutorialNeeded, true); }
+            get { return false;}
             set { SetBoolValue(Keys.BasicTutorialNeeded, value); }
         }
 

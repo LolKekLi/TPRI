@@ -1,4 +1,5 @@
-﻿using TMPro;
+﻿using System;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -6,6 +7,8 @@ namespace Project.UI
 {
     public class MainWindow : Window
     {
+        public static event Action Start = delegate {  };
+        
         [SerializeField]
         private Button _startButton = null;
 
@@ -17,20 +20,21 @@ namespace Project.UI
 
         public override bool IsPopup => false;
 
-        protected override void Start()
+        public override void OnShow()
         {
-            base.Start();
-
+            base.OnShow();
+            
             _startButton.onClick.AddListener(StartGame);
 
             for (int i = 0; i < _upButtons.Length; i++)
             {
-                _upButtons[i].Setup(Refresh);
+                _upButtons[i].Setup(() =>
+                {
+                    Refresh();
+                });
             }
-
-            Refresh();
         }
-
+        
         public override void Refresh()
         {
             base.Refresh();
@@ -42,11 +46,11 @@ namespace Project.UI
                 _upButtons[i].Refresh();
             }
         }
-
-
+        
         private void StartGame()
         {
             UISystem.ShowWindow<GameWindow>();
+            Start();
         }
     }
 }

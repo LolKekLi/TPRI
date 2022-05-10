@@ -14,7 +14,10 @@ namespace Project.UI
         private MetaObjectType _type = default;
 
         [SerializeField]
-        private TextMeshProUGUI _cost = null;
+        private TextMeshProUGUI _costText = null;
+
+        [SerializeField]
+        private TextMeshProUGUI _lable = null;
 
         [SerializeField]
         private Button _button = null;
@@ -22,6 +25,7 @@ namespace Project.UI
         private MetaObject[] _metaObjects = null;
 
         private Action _onClickAction = null;
+        private int _cost = 0;
 
         private void Start()
         {
@@ -31,27 +35,36 @@ namespace Project.UI
         public void Refresh()
         {
             var metaLvl = LocalConfig.GetMetaLvl(_type);
-            var currentObject = _metaObjects.FirstOrDefault(x => x.Level == metaLvl);
+            var currentObject = _metaObjects.FirstOrDefault(x => x.Level == metaLvl + 1);
 
-            _cost.text = currentObject.Cost.ToString();
+            if (currentObject == null)
+            {
+                _costText.text = "MAX";
+                _cost = 0;
+            }
+            else
+            {
+                _cost = currentObject.Cost;
+                _costText.text = _cost.ToString();
+                
+               
+            }
         }
 
         public void Setup(Action refresh)
         {
             _onClickAction = refresh;
 
-            _metaObjects = MetaObjectHelper.Instacne.GetMetaObjects(_type);
+            _lable.text = _type.ToString();
 
-            Refresh();
-        }
+            _metaObjects = MetaObjectHelper.Instacne.GetMetaObjects(_type);
+         }
 
         private void UpMeta()
         {
-            var cost = Int32.Parse(_cost.text);
-
-            if (User.Current.Coins > cost)
+            if (User.Current.Coins > _cost)
             {
-                ((IUser)User.Current).SetCurrency(CurrencyType.Coin, -cost);
+                ((IUser)User.Current).SetCurrency(CurrencyType.Coin, -_cost);
                 LocalConfig.SetMetaLvl(_type, LocalConfig.GetMetaLvl(_type) + 1);
                 
                 MetaUpped(_type);

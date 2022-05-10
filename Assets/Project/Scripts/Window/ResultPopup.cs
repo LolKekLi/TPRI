@@ -73,9 +73,9 @@ namespace Project.UI
             
             _disappearController.Play();
             
-            this.InvokeWithDelay(.5f, () =>
+            this.InvokeWithDelay(1f, () =>
             {
-                UISystem.ShowWindow<GameWindow>();
+                UISystem.ShowWindow<MainWindow>();
             });
 
             ClaimClicked();

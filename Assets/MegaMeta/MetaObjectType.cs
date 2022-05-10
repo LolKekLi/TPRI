@@ -2,9 +2,9 @@ namespace Project
 {
     public enum MetaObjectType
     {
-        Walls,
+        Room,
         Chairs,
-        Bads,
+        Bad,
         Tables,
     }
 }
