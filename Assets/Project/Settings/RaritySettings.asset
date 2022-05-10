@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c03f07cf36914e81a175762751c7ce85, type: 3}
+  m_Name: RaritySettings
+  m_EditorClassIdentifier: 
+  _presets:
+  - <Type>k__BackingField: 0
+    <BackgroundColor>k__BackingField: {r: 0.21960784, g: 0.12156863, b: 0.05490196, a: 0.4}
+    <BackgroundStrokeColor>k__BackingField: {r: 0.2264151, g: 0.13433655, b: 0.07155571, a: 0.49019608}
+    <CounterStrokeColor>k__BackingField: {r: 0.0627451, g: 0.5921569, b: 0.70980394, a: 1}
+    <FxSprite>k__BackingField: {fileID: 0}
+  - <Type>k__BackingField: 1
+    <BackgroundColor>k__BackingField: {r: 0, g: 0.36862746, b: 1, a: 0.4}
+    <BackgroundStrokeColor>k__BackingField: {r: 0, g: 0.5568628, b: 0.95686275, a: 1}
+    <CounterStrokeColor>k__BackingField: {r: 0, g: 0.5568628, b: 0.95686275, a: 1}
+    <FxSprite>k__BackingField: {fileID: 0}
+  - <Type>k__BackingField: 2
+    <BackgroundColor>k__BackingField: {r: 0.4117647, g: 0, b: 1, a: 0.4}
+    <BackgroundStrokeColor>k__BackingField: {r: 0.8235294, g: 0, b: 0.95686275, a: 1}
+    <CounterStrokeColor>k__BackingField: {r: 0.8235294, g: 0, b: 0.95686275, a: 1}
+    <FxSprite>k__BackingField: {fileID: 0}
+  - <Type>k__BackingField: 3
+    <BackgroundColor>k__BackingField: {r: 1, g: 0.83137256, b: 0, a: 0.4}
+    <BackgroundStrokeColor>k__BackingField: {r: 1, g: 0.9137255, b: 0, a: 1}
+    <CounterStrokeColor>k__BackingField: {r: 1, g: 0.9137255, b: 0, a: 1}
+    <FxSprite>k__BackingField: {fileID: 0}

@@ -1,0 +1,234 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ea9abc55184412d9b9c799a8b84ea64, type: 3}
+  m_Name: TradedItemSettings
+  m_EditorClassIdentifier: 
+  _presets:
+  - <CategoryType>k__BackingField: 1
+    <RarityType>k__BackingField: 0
+    <Item>k__BackingField: {fileID: 3293304212091899637, guid: 234fcdf0ac9c53444bd75a7e94a29425, type: 3}
+    <ItemSprite>k__BackingField: {fileID: 21300000, guid: 6184079896eec4d32b4b68a3d43628dd, type: 3}
+    <ItemValue>k__BackingField: 2
+    <PriceSettings>k__BackingField:
+      <CurrencyType>k__BackingField: 0
+      <Price>k__BackingField: 250
+      <RewardCount>k__BackingField: 3
+  - <CategoryType>k__BackingField: 1
+    <RarityType>k__BackingField: 1
+    <Item>k__BackingField: {fileID: 6533188003938161949, guid: 01dce0c93077142fa82092d13a4f47e8, type: 3}
+    <ItemSprite>k__BackingField: {fileID: 21300000, guid: 1780f5161b4384b3c9243cce900aef4a, type: 3}
+    <ItemValue>k__BackingField: 4
+    <PriceSettings>k__BackingField:
+      <CurrencyType>k__BackingField: 0
+      <Price>k__BackingField: 500
+      <RewardCount>k__BackingField: 3
+  - <CategoryType>k__BackingField: 1
+    <RarityType>k__BackingField: 1
+    <Item>k__BackingField: {fileID: 173888552715986171, guid: 2e7e4c7d3080acf469d275ee374b3b74, type: 3}
+    <ItemSprite>k__BackingField: {fileID: 21300000, guid: 89e5726c563964bc28b6bea50bb9a7ae, type: 3}
+    <ItemValue>k__BackingField: 6
+    <PriceSettings>k__BackingField:
+      <CurrencyType>k__BackingField: 0
+      <Price>k__BackingField: 650
+      <RewardCount>k__BackingField: 3
+  - <CategoryType>k__BackingField: 1
+    <RarityType>k__BackingField: 1
+    <Item>k__BackingField: {fileID: 7134284613679897542, guid: 3efc82c2417303c40beaf4d0aafc5100, type: 3}
+    <ItemSprite>k__BackingField: {fileID: 21300000, guid: 0facc9301cb8548ab86a9d308a640c3c, type: 3}
+    <ItemValue>k__BackingField: 8
+    <PriceSettings>k__BackingField:
+      <CurrencyType>k__BackingField: 0
+      <Price>k__BackingField: 850
+      <RewardCount>k__BackingField: 3
+  - <CategoryType>k__BackingField: 1
+    <RarityType>k__BackingField: 2
+    <Item>k__BackingField: {fileID: 1992056956224391322, guid: 9c3def5586a124452ad2e0dce0206682, type: 3}
+    <ItemSprite>k__BackingField: {fileID: 21300000, guid: 9015522d6a63c4d2ab7e78044a7e3d9d, type: 3}
+    <ItemValue>k__BackingField: 19
+    <PriceSettings>k__BackingField:
+      <CurrencyType>k__BackingField: 0
+      <Price>k__BackingField: 1900
+      <RewardCount>k__BackingField: 2
+  - <CategoryType>k__BackingField: 1
+    <RarityType>k__BackingField: 3
+    <Item>k__BackingField: {fileID: 6501787963932884453, guid: 492721c2574ec4b6884ad824cfe43241, type: 3}
+    <ItemSprite>k__BackingField: {fileID: 21300000, guid: e665e38d5ba374ec884eb2d86e19c2ff, type: 3}
+    <ItemValue>k__BackingField: 25
+    <PriceSettings>k__BackingField:
+      <CurrencyType>k__BackingField: 0
+      <Price>k__BackingField: 2500
+      <RewardCount>k__BackingField: 2
+  - <CategoryType>k__BackingField: 2
+    <RarityType>k__BackingField: 1
+    <Item>k__BackingField: {fileID: 6563901043107830528, guid: adb5d59ca453d8f4fbaaa383770ec88b, type: 3}
+    <ItemSprite>k__BackingField: {fileID: 21300000, guid: be97e0c67a1254f9a9775199779c5849, type: 3}
+    <ItemValue>k__BackingField: 12
+    <PriceSettings>k__BackingField:
+      <CurrencyType>k__BackingField: 0
+      <Price>k__BackingField: 1200
+      <RewardCount>k__BackingField: 2
+  - <CategoryType>k__BackingField: 2
+    <RarityType>k__BackingField: 1
+    <Item>k__BackingField: {fileID: 5404439973016485888, guid: a84fe77ed156c264382817c7c65eddd3, type: 3}
+    <ItemSprite>k__BackingField: {fileID: 21300000, guid: d02b0e2260fd744f6b27bf803e540590, type: 3}
+    <ItemValue>k__BackingField: 16
+    <PriceSettings>k__BackingField:
+      <CurrencyType>k__BackingField: 0
+      <Price>k__BackingField: 1600
+      <RewardCount>k__BackingField: 2
+  - <CategoryType>k__BackingField: 0
+    <RarityType>k__BackingField: 0
+    <Item>k__BackingField: {fileID: 7241761558841270661, guid: bce400f65530cd54bbcdb681aab696ce, type: 3}
+    <ItemSprite>k__BackingField: {fileID: 21300000, guid: 7274c38b8947445348a595727f78395d, type: 3}
+    <ItemValue>k__BackingField: 3
+    <PriceSettings>k__BackingField:
+      <CurrencyType>k__BackingField: 0
+      <Price>k__BackingField: 350
+      <RewardCount>k__BackingField: 2
+  - <CategoryType>k__BackingField: 0
+    <RarityType>k__BackingField: 1
+    <Item>k__BackingField: {fileID: 7570675648371850227, guid: 7553f35194cf8a846ae4b371d49f1317, type: 3}
+    <ItemSprite>k__BackingField: {fileID: 21300000, guid: b744b517f5e7b44558cb1f91cc55b473, type: 3}
+    <ItemValue>k__BackingField: 6
+    <PriceSettings>k__BackingField:
+      <CurrencyType>k__BackingField: 0
+      <Price>k__BackingField: 650
+      <RewardCount>k__BackingField: 2
+  - <CategoryType>k__BackingField: 0
+    <RarityType>k__BackingField: 1
+    <Item>k__BackingField: {fileID: 4556563121663592836, guid: 0550140837fa940719ce95e9bd5b4a18, type: 3}
+    <ItemSprite>k__BackingField: {fileID: 21300000, guid: ca3932d35807a4242a03a7074e21d93f, type: 3}
+    <ItemValue>k__BackingField: 8
+    <PriceSettings>k__BackingField:
+      <CurrencyType>k__BackingField: 0
+      <Price>k__BackingField: 850
+      <RewardCount>k__BackingField: 2
+  - <CategoryType>k__BackingField: 0
+    <RarityType>k__BackingField: 2
+    <Item>k__BackingField: {fileID: 4409191005765257129, guid: c5d2c9b16f226f446a5e803a3fa44a61, type: 3}
+    <ItemSprite>k__BackingField: {fileID: 21300000, guid: 015d86cf0889343abb848fa720a1be9e, type: 3}
+    <ItemValue>k__BackingField: 13
+    <PriceSettings>k__BackingField:
+      <CurrencyType>k__BackingField: 0
+      <Price>k__BackingField: 1300
+      <RewardCount>k__BackingField: 2
+  - <CategoryType>k__BackingField: 3
+    <RarityType>k__BackingField: 1
+    <Item>k__BackingField: {fileID: 6768377490180088219, guid: 1d543c2f5096c5a4ca405a4c67df6e1d, type: 3}
+    <ItemSprite>k__BackingField: {fileID: 21300000, guid: e6da19243f87a48709a79e51e33eb4a2, type: 3}
+    <ItemValue>k__BackingField: 4
+    <PriceSettings>k__BackingField:
+      <CurrencyType>k__BackingField: 0
+      <Price>k__BackingField: 450
+      <RewardCount>k__BackingField: 3
+  - <CategoryType>k__BackingField: 2
+    <RarityType>k__BackingField: 0
+    <Item>k__BackingField: {fileID: 3620510493917690174, guid: 9540ba548299f3e4e91dd013439ebe6d, type: 3}
+    <ItemSprite>k__BackingField: {fileID: 21300000, guid: dfbaadbd645cf49d2b81cc8671ea6d15, type: 3}
+    <ItemValue>k__BackingField: 6
+    <PriceSettings>k__BackingField:
+      <CurrencyType>k__BackingField: 0
+      <Price>k__BackingField: 650
+      <RewardCount>k__BackingField: 2
+  - <CategoryType>k__BackingField: 2
+    <RarityType>k__BackingField: 3
+    <Item>k__BackingField: {fileID: 8637778582128896295, guid: ad390245722640f4a9a54ac2a1c2a9d6, type: 3}
+    <ItemSprite>k__BackingField: {fileID: 21300000, guid: 9db355c700be2409a98356898a467797, type: 3}
+    <ItemValue>k__BackingField: 35
+    <PriceSettings>k__BackingField:
+      <CurrencyType>k__BackingField: 0
+      <Price>k__BackingField: 3500
+      <RewardCount>k__BackingField: 2
+  - <CategoryType>k__BackingField: 3
+    <RarityType>k__BackingField: 2
+    <Item>k__BackingField: {fileID: 5034491430900940055, guid: 3437a04fd74d38b4c8975fcce43cf2ab, type: 3}
+    <ItemSprite>k__BackingField: {fileID: 21300000, guid: 5448ecd43493748e6ae2625b2518dc4a, type: 3}
+    <ItemValue>k__BackingField: 12
+    <PriceSettings>k__BackingField:
+      <CurrencyType>k__BackingField: 0
+      <Price>k__BackingField: 1200
+      <RewardCount>k__BackingField: 2
+  - <CategoryType>k__BackingField: 3
+    <RarityType>k__BackingField: 2
+    <Item>k__BackingField: {fileID: 3734637857645516156, guid: 1c2980fbb041a5143ba09806b1091625, type: 3}
+    <ItemSprite>k__BackingField: {fileID: 21300000, guid: 430d28077d7b9438695a94bfa4ce86f6, type: 3}
+    <ItemValue>k__BackingField: 19
+    <PriceSettings>k__BackingField:
+      <CurrencyType>k__BackingField: 0
+      <Price>k__BackingField: 1950
+      <RewardCount>k__BackingField: 2
+  - <CategoryType>k__BackingField: 3
+    <RarityType>k__BackingField: 2
+    <Item>k__BackingField: {fileID: 2310041254264924719, guid: 093dc28e9abcc4839ae8c047221a9fb9, type: 3}
+    <ItemSprite>k__BackingField: {fileID: 21300000, guid: c294bc12908104ca58e50fab33eb49fc, type: 3}
+    <ItemValue>k__BackingField: 27
+    <PriceSettings>k__BackingField:
+      <CurrencyType>k__BackingField: 0
+      <Price>k__BackingField: 2900
+      <RewardCount>k__BackingField: 2
+  - <CategoryType>k__BackingField: 3
+    <RarityType>k__BackingField: 3
+    <Item>k__BackingField: {fileID: 5650058400389225831, guid: 0abff918da8ecc84d9654fb2ecac097e, type: 3}
+    <ItemSprite>k__BackingField: {fileID: 21300000, guid: 5a8364abe0d4a44aab9e206ed349d1a8, type: 3}
+    <ItemValue>k__BackingField: 30
+    <PriceSettings>k__BackingField:
+      <CurrencyType>k__BackingField: 0
+      <Price>k__BackingField: 3000
+      <RewardCount>k__BackingField: 2
+  - <CategoryType>k__BackingField: 3
+    <RarityType>k__BackingField: 3
+    <Item>k__BackingField: {fileID: 8130463870289964734, guid: 27e28be5dd9add94a89f490740472de8, type: 3}
+    <ItemSprite>k__BackingField: {fileID: 21300000, guid: 2cf2e9157876e436f978d6b6fb859277, type: 3}
+    <ItemValue>k__BackingField: 34
+    <PriceSettings>k__BackingField:
+      <CurrencyType>k__BackingField: 0
+      <Price>k__BackingField: 3499
+      <RewardCount>k__BackingField: 3
+  - <CategoryType>k__BackingField: 3
+    <RarityType>k__BackingField: 1
+    <Item>k__BackingField: {fileID: 6575606715011083348, guid: 3ebddc1131e96c7418e8291a45004b84, type: 3}
+    <ItemSprite>k__BackingField: {fileID: 21300000, guid: c74802d3c87024c6397658f6577de1f0, type: 3}
+    <ItemValue>k__BackingField: 9
+    <PriceSettings>k__BackingField:
+      <CurrencyType>k__BackingField: 0
+      <Price>k__BackingField: 900
+      <RewardCount>k__BackingField: 2
+  - <CategoryType>k__BackingField: 2
+    <RarityType>k__BackingField: 2
+    <Item>k__BackingField: {fileID: 8041384215373203501, guid: caafb76fc93fc3240a188b1108c9024a, type: 3}
+    <ItemSprite>k__BackingField: {fileID: 21300000, guid: d280c37b724444153a6d62f7e147a506, type: 3}
+    <ItemValue>k__BackingField: 23
+    <PriceSettings>k__BackingField:
+      <CurrencyType>k__BackingField: 0
+      <Price>k__BackingField: 2300
+      <RewardCount>k__BackingField: 2
+  - <CategoryType>k__BackingField: 3
+    <RarityType>k__BackingField: 0
+    <Item>k__BackingField: {fileID: 3197550372852469272, guid: 27da87b1a3bc0c246b9f106ef1ac5b99, type: 3}
+    <ItemSprite>k__BackingField: {fileID: 21300000, guid: ecc8ec9e44cb24f06a32f1c36002b97b, type: 3}
+    <ItemValue>k__BackingField: 2
+    <PriceSettings>k__BackingField:
+      <CurrencyType>k__BackingField: 0
+      <Price>k__BackingField: 200
+      <RewardCount>k__BackingField: 3
+  - <CategoryType>k__BackingField: 1
+    <RarityType>k__BackingField: 3
+    <Item>k__BackingField: {fileID: 2142347234758298495, guid: 1878f59979b68d94394f72dd5a9b925a, type: 3}
+    <ItemSprite>k__BackingField: {fileID: 21300000, guid: 9cc40fe2e272644639a8c24dbd53a4db, type: 3}
+    <ItemValue>k__BackingField: 33
+    <PriceSettings>k__BackingField:
+      <CurrencyType>k__BackingField: 0
+      <Price>k__BackingField: 4000
+      <RewardCount>k__BackingField: 1
+  <ForceMultiplier>k__BackingField: 15
+  <ItemMoveYOffset>k__BackingField: 2.75
+  <ItemMoveZOffset>k__BackingField: 0.33

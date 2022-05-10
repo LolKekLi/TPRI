@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4724a07b-326e-401f-82e4-01647d58e30b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/03EB8B5A-0B99-4E17-A54E-298134BE700A/cb/bdd67a7a/Physics.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../AutoTD/Assets/_Application/Scripts/UI/GameWindow/Controls/UIUnitCardIngame.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Types/ButtonType.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Gameplay/Buttons/AddMoreButton.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Gameplay/Buttons/DenyButton.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Gameplay/Buttons/TradeButton.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Singletons/DontDestroyGameObjectSingleton.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Types/CategoryType.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Types/RarityType.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Types/ItemType.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Settings/RaritySettings.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Managers/AssetsManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Gameplay/GameCameraSystem.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Settings/TradedItemSettings.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Gameplay/GameUISystem.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Gameplay/PlayebleBoard.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Gameplay/PlayableBoard.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Window/GameWindow/UITradedItem.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Gameplay/TradedItem.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Gameplay/OpponentController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Gameplay/Hand.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Gameplay/Buttons/IngameButton.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Gameplay/TradeController.cs" />
+    </changedPaths>
+  </component>
+  <component name="ProjectId" id="1vybaVM2tCF62oYxdiDcH8Ewhtq" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
