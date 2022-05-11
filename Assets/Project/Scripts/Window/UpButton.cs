@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using DG.Tweening;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -21,6 +22,9 @@ namespace Project.UI
 
         [SerializeField]
         private Button _button = null;
+
+        [SerializeField]
+        private DOTweenAnimation _doTweenAnimation = null;
 
         private MetaObject[] _metaObjects = null;
 
@@ -46,8 +50,6 @@ namespace Project.UI
             {
                 _cost = currentObject.Cost;
                 _costText.text = _cost.ToString();
-                
-               
             }
         }
 
@@ -58,7 +60,7 @@ namespace Project.UI
             _lable.text = _type.ToString();
 
             _metaObjects = MetaObjectHelper.Instacne.GetMetaObjects(_type);
-         }
+        }
 
         private void UpMeta()
         {
@@ -66,7 +68,12 @@ namespace Project.UI
             {
                 ((IUser)User.Current).SetCurrency(CurrencyType.Coin, -_cost);
                 LocalConfig.SetMetaLvl(_type, LocalConfig.GetMetaLvl(_type) + 1);
-                
+
+                if (_cost != 0)
+                {
+                    _doTweenAnimation.Play();
+                }
+
                 MetaUpped(_type);
 
                 _onClickAction.Invoke();
