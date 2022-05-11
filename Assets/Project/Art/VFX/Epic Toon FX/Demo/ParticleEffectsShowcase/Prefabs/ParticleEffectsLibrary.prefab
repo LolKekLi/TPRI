@@ -43,8 +43,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a383f6b4f1b4ec4a9288e14968803f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TotalEffects: 0
-  CurrentParticleEffectIndex: 0
+  TotalEffects: 10
+  CurrentParticleEffectIndex: 10
   CurrentParticleEffectNum: 0
   ParticleEffectSpawnOffsets:
   - {x: 0, y: 0.5, z: 0}
